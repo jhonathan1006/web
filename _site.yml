@@ -1,9 +1,13 @@
-name: "my-website"
+name: "Mi sitio web"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Mi sitio web"
   left:
-    - text: "Home"
+    - text: "A cerca de mi"
       href: index.html
-    - text: "About"
+    - text: "Mi perfil profesional"
       href: about.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
